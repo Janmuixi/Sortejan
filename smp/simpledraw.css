@@ -33,10 +33,27 @@ html {
     margin-top: 80px;
 }
 
-.simple-draw-btn, .complex-draw-btn, .external-draw-btn {
+
+.complex-draw-btn, .external-draw-btn {
     color: white;
     border-radius: 4px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     background: rgb(28, 184, 65);
     font-size: 30px;
+}
+.simple-draw-btn {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(156, 156, 156);
+    font-size: 30px;
+}
+
+.list-of-participants {
+    text-align: center;
+}
+
+.list-of-participants > ul {
+    list-style-type: none;
+    
 }
